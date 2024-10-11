@@ -24,12 +24,19 @@ void main () { //main função primaria / make no do programa //
      char sexo = 'M';//variavel que aceita um caracter e deve estar entre apostrofo
 
      printf("Sexo: %c\n", sexo);//imprimindo variavel unitaria %c
-     
+
      char nome [30] = "João";//criando varial string texte//vetor [30] caracteres
 
      printf("Nome: %s\n", nome);//imprimindo variavel string texto %s
 
      printf("Primeira Letra: %c\n", nome[0]);
 
+     printf("Digite o valor de x: \n ");
+
+     scanf("%d" , &x);
+
+     printf("O valor digitado foi %d \n", x);
+
     printf("Ola Mundo!");
+    
 }
