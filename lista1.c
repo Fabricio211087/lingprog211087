@@ -15,9 +15,20 @@ void q2(){
  printf("30*27 = %d\n", 30*27);
 }
 //3. Faça um programa que imprima a média aritmética entre os números 5, 8, 12.
+void q3(){
+ float media=(5+8+12)/3.0;
+ printf("Faça  a média aritmética entre os números 5, 8, 12. \n");
+ printf("Media de 5,8,12 é igual a %.1f \n," , media);
+
+}
 
 //4. Faça um programa que leia e imprima um número inteiro.
-
+void q4(){
+    int num =0;
+    printf("Digite um valor numerico inteiro: \n");
+    scanf("%d", &num);
+    printf("O valor digitado foi %d \n" , num);
+}
 //5. Faça um programa que leia dois números reais e os imprima.
 
 //6. Faça um programa que leia um número inteiro e imprima o seu
@@ -92,5 +103,8 @@ void q2(){
 int main() {
     q1();
     q2();
+    q3();
+    q4();
+
     return EXIT_SUCCESS;
 }
