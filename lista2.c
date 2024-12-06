@@ -132,7 +132,14 @@ void questao06() {
 //7. Faça um programa que leia um número e indique se o número está compreendido
 //entre 20 e 50 ou não.
 void questao07() {
-
+float numero=0;
+printf ("Escreva um numero");
+scanf("%e", &numero);
+if (numero >= 20 && numero <= 50) {
+		printf("O numero esta entre 20 e 50.");
+	} else {
+		printf("O numero não esta entre 20 e 50.");		
+	}
 }
 
 //8. Faça um programa que leia um número e imprima uma das mensagens: 
@@ -298,6 +305,10 @@ int main() {
 			break;	
  		case 6:
 			questao06();
+			break;	
+
+		case 7:
+			questao07();
 			break;	
     
 		case 10:
