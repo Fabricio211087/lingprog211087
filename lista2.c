@@ -133,18 +133,31 @@ void questao06() {
 //entre 20 e 50 ou não.
 void questao07() {
 float numero=0;
-printf ("Escreva um numero");
+printf ("Escreva um numero:  \n");
 scanf("%e", &numero);
 if (numero >= 20 && numero <= 50) {
-		printf("O numero esta entre 20 e 50.");
+		printf("O numero esta entre 20 e 50.\n");
 	} else {
-		printf("O numero não esta entre 20 e 50.");		
+		printf("O numero não esta entre 20 e 50.\n");		
 	}
 }
 
 //8. Faça um programa que leia um número e imprima uma das mensagens: 
 //"Maior do que 20", "Igual a 20"ou "Menor do que 20".
 void questao08() {
+float numero=0;
+printf ("Escreva um numero:  ");
+scanf("%e", &numero);
+if (numero > 20 ) {
+		printf("O numero maior que 20.\n");
+
+if (numero < 20 ) 
+		printf("O numero menor que 20.\n");
+
+						
+	} else {
+		printf("O numero igual 20.\n");		
+	}
 	
 }
 
@@ -310,6 +323,10 @@ int main() {
 		case 7:
 			questao07();
 			break;	
+			
+		case 8:
+			questao08();
+			break;
     
 		case 10:
 			questao10();
