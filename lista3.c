@@ -224,3 +224,6 @@ int main() {
     multiplode5();
 	return EXIT_SUCCESS;
 }
+
+
+//https://github.com/ifmt-cba/lingprog20242/commit/b667d836ec5cafa34952dd03c69a32c73c59412a#diff-34beb024dc7b728bcf930d3acd3bba13129070fb04a9a214b8ad000482c56ef5R39
